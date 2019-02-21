@@ -9,7 +9,7 @@ function depthFirstSearch(rootNode, vertices, edges) {
     discovered(currentNode)
     console.log('adjacent', adjacentNodes)
     stack = stack.concat(adjacentNodes)
-    order = order.concat(currentNode)
+    order.push(currentNode)
   }
   return order
 }
