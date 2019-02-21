@@ -28,5 +28,5 @@ function adjacent(node, vertices, edges) {
 }
 
 function discovered(node) {
-  node.discovered = 'yes' 
+  node.discovered = true 
 }
